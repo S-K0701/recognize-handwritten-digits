@@ -19,7 +19,7 @@ plt.subplots_adjust(top=0.85)
 plt.show()
 
   
-2.2 Correlation Matrix of Selected Pixels
+#2.2 Correlation Matrix of Selected Pixels
 
 # Select 50 random pixel indices for correlation to make plotting feasible
 np.random.seed(42)
@@ -41,7 +41,7 @@ plt.title('Correlation Matrix of Selected Pixel Intensities')
 plt.show()
   
 
-3 Relationship Between Pixel Intensity and Target Labels
+#3 Relationship Between Pixel Intensity and Target Labels
 
 center_pixel = x_train[:, 14, 14]
 
